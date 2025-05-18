@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela de Horários de Aula</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 958px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Período</th>
+                <th colspan="5">Dias da Semana</th>
+            </tr>
+            <tr>
+                <th>Segunda-feira</th>
+                <th>Terça-feira</th>
+                <th>Quarta-feira</th>
+                <th>Quinta-feira</th>
+                <th>Sexta-feira</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="font-weight: bold;">Manhã</td>
+                <td>Matemática</td>
+                <td>Física</td>
+                <td>Matemática</td>
+                <td>Química</td>
+                <td>História</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Tarde</td>
+                <td>Química</td>
+                <td>História</td>
+                <td>Física</td>
+                <td>História</td>
+                <td>Matemática</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="font-weight: bold;">Noite</td>
+                <td colspan="5">Inglês</td>
+        </tbody>
+    </table>
+</body>
+</html>
